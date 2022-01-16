@@ -1,0 +1,33 @@
+{
+  "name": "Orbital",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "Orbital",
+  "author": "Appelie",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^16.0.6",
+    "electron-builder": "^22.14.5"
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "publish": {
+      "provider": "s3",
+      "bucket": "orbitalappelie",
+      "acl": null
+    }
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "basic-ftp": "^4.6.6",
+    "electron-reload": "^2.0.0-alpha.1",
+    "electron-updater": "^4.6.1",
+    "frp": "^0.3.4",
+    "ftp": "^0.3.10",
+    "spinthatshit": "^1.0.4"
+  }
+}
