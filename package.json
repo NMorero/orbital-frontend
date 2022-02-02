@@ -24,6 +24,7 @@
   "dependencies": {
     "axios": "^0.24.0",
     "basic-ftp": "^4.6.6",
+    "check-internet-connected": "^2.0.5",
     "electron-reload": "^2.0.0-alpha.1",
     "electron-updater": "^4.6.1",
     "frp": "^0.3.4",
